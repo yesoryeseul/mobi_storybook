@@ -8,21 +8,28 @@ export default {
       control: {
         type: "select",
       },
-      options: ["small", "medium", "large"],
+      options: ["primary"],
     },
-    borders: {
+    variant: {
       control: {
         type: "radio",
       },
-      options: ["all", "bottom", "none"],
+      options: ["primary", "borderNone"],
+    },
+    shape: {
+      control: {
+        type: "select",
+      },
+      options: ["primary", "soft"],
     },
   },
 };
 
-const Template = (args) => <Input {...args} />;
-export const BasicInput = Template.bind({});
-
-BasicInput.args = {
-  children: "BasicInput",
-  size: "level1",
+export const BasicInput = {
+  arge: {
+    variant: "primary",
+    size: "primary",
+    shape: "primary",
+    children: "input...",
+  },
 };

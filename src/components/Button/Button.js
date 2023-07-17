@@ -1,4 +1,3 @@
-import "./Button.css";
 import * as S from "./Button.style";
 
 const Button = ({

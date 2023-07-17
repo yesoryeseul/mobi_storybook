@@ -1,33 +1,12 @@
-const Input = (props) => {
-  const { size, borders, children, ...rest } = props;
+import * as S from "./Input.style";
 
-  const inputClass = `${size} ${borders}`;
-
-  const padding = {
-    small: "10px",
-    medium: "16px",
-    large: "20px",
-  }[size];
-
-  const border = {
-    none: "none",
-  }[borders];
-
-  const borderBottom = {
-    bottom: "1px solid",
-  }[borders];
-
-  const style = {
-    padding,
-    border,
-    borderBottom,
-  };
-
+const Input = ({ variant, shpae, size, children, ...rest }) => {
   return (
-    <input
-      className={inputClass}
-      placeholder={children}
-      style={style}
+    <S.Input
+      variant={variant}
+      shpae={shpae}
+      size={size}
+      placeholder={"test"}
       {...rest}
     />
   );
