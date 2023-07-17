@@ -56,8 +56,6 @@ export default {
   // ],
 };
 
-// export const Primary = () => <Button variant="primary">Primary</Button>; // 기본 인라인 방식 -> 재사용 x
-
 /*
 2. Template 방식
   - props를 전달하는 것을 좀 더 직관적으로 보여줄 수 있다.
