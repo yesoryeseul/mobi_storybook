@@ -1,5 +1,4 @@
 import Select from "./Select";
-import * as S from "./Select.style";
 
 export default {
   title: "Components/Select",

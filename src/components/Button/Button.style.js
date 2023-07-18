@@ -2,11 +2,11 @@ import styled, { css } from "styled-components";
 
 const variantCSS = {
   primary: css`
-    background-color: #3cb371;
+    background-color: ${({ theme }) => theme.color.mainColor};
   `,
   borderLine: css`
     color: #3cb371;
-    border: 1px solid #3cb371;
+    border: 1px solid ${({ theme }) => theme.color.mainColor};
     background-color: transparent;
   `,
   disabled: css`

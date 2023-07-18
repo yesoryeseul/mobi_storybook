@@ -1,4 +1,5 @@
 const color = {
+  mainColor: "#3cb371",
   primary: {
     100: "#FFD1D1",
     200: "#FF9494",

@@ -1,7 +1,7 @@
 import Input from "./Input";
 
 export default {
-  title: "Input",
+  title: "Components/Input",
   component: Input,
   argTypes: {
     size: {
@@ -26,7 +26,7 @@ export default {
 };
 
 export const BasicInput = {
-  arge: {
+  args: {
     variant: "primary",
     size: "primary",
     shape: "primary",

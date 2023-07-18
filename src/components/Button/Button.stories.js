@@ -2,7 +2,7 @@
 import Button from "./Button";
 
 export default {
-  title: "Button", // 화면상 내비게이션 이름
+  title: "COmponents/Button", // 화면상 내비게이션 이름
   component: Button, // 컴포넌트 import
   argTypes: {
     variant: {

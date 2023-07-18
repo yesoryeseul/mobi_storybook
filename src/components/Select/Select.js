@@ -8,7 +8,6 @@ function Select(props) {
       shape={shape}
       status="default"
       size={size}
-      // option={["value1", "value2"]}
       option={children}
     />
   );
