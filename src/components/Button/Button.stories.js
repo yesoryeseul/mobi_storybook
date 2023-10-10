@@ -1,8 +1,7 @@
-// import GlobalStyles from "../../styles/global";
 import Button from "./Button";
 
 export default {
-  title: "COmponents/Button", // 화면상 내비게이션 이름
+  title: "Components/Button", // 화면상 내비게이션 이름
   component: Button, // 컴포넌트 import
   argTypes: {
     variant: {
@@ -75,6 +74,17 @@ export const Primary = {
     variant: "primary",
     shape: "primary",
     size: "primary",
+    fontsize: "primary",
     children: "Button",
   },
+
+  // 이렇게 작성할 경우 하나만 확인 가능!
+  // render: () => (
+  //   <Button
+  //     variant="primary"
+  //     shape="primary"
+  //     size="primary"
+  //     children="Button"
+  //   />
+  // ),
 };

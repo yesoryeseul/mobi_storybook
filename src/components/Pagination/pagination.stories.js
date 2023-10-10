@@ -4,14 +4,13 @@ export default {
   title: "Components/Pagination",
   component: Paginations,
   argTypes: {
-    total: {
-      control: { type: "text" },
-    },
-    limit: {
-      control: { type: "text" },
+    count: {
+      control: { type: "number" },
+      defaultValue: 10,
     },
     page: {
-      control: { type: "text" },
+      control: { type: "number" },
+      defaultValue: 1,
     },
   },
 };

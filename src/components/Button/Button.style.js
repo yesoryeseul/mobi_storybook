@@ -28,7 +28,7 @@ const shapeCSS = {
     border-radius: 8px;
   `,
   rounded: css`
-    border-radius: 20px;
+    border-radius: 50px;
   `,
 };
 
@@ -37,7 +37,13 @@ const sizeCSS = {
     padding: 8px 12px;
   `,
   small: css`
-    padding: 4px 6px;
+    padding: 4px 8px;
+  `,
+  medium: css`
+    padding: 12px 20px;
+  `,
+  large: css`
+    padding: 16px 32px;
   `,
 };
 
@@ -60,7 +66,6 @@ const fontSizeCSS = {
 };
 
 export const Button = styled.button`
-  /* font-weight: bold; */
   color: white;
   ${({ variant }) => variantCSS[variant]}
   ${({ shape }) => shapeCSS[shape]}
